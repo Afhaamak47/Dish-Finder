@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(135deg, #d90b0b 0%, #e68f8f 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+img {
+  position: absolute;
+  top: 3%;
+  left: 18%;
+  height: 200px;
+}
+#recipe p {
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  right: 20px;
+}
+#recipe h2 {
+  color: #fff;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 330px;
+  left: 20px;
+}
+#recipe a {
+  position: absolute;
+  top: 530px;
+  left: 20px;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  padding: 4px;
+}
+#input {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  width: 190px;
+  margin-right: 20px;
+}
+button {
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
